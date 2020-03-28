@@ -12,3 +12,6 @@ Steps to follow before running the script:
   -ggplot2
   -caTools
 6. Run the script
+
+
+![Rplot](https://user-images.githubusercontent.com/28048969/77810937-7562c000-7097-11ea-87f1-b687dcd7de19.png)
