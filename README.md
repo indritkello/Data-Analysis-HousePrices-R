@@ -6,6 +6,7 @@ Steps to follow before running the script:
 2. Download RStudio https://rstudio.com/products/rstudio/download/
 3. Open RStudio
 4. File/Open File choose the script file
+   Note: Here you may want to change the dataset path used in the beginning. 
 5. Install the following packages 
   -dplyr
   -ggplot2
