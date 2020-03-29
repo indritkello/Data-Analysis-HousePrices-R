@@ -63,4 +63,4 @@ sqrt(mean(compare_result$error^2))->rmse1
 str(rmse1)
 
 #predicted-actual correlation
-ggplot(compare_result, aes(x=actual, y=predicted))+geom_point(col="purple")+geom_smooth(method="lm", se = F)
+ggplot(compare_result, aes(x=actual, y=predicted))+geom_point(col="purple")+geom_smooth(method="lm", se = T)
