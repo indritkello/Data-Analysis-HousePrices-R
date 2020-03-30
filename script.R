@@ -36,7 +36,7 @@ library(caTools) # Library for window statistic functions
 #skip columns you dont want to be part of the model, or lease the set as it is
 houses<-subset(houses, select = c(-prefarea))
 
-sample.split(houses$price, SplitRatio=0.7)->split_index # 0.65 of the records will have the splitIndex = T
+sample.split(houses$price, SplitRatio=0.7)->split_index # 75% of the records (random) will have the splitIndex = T (true)
 train<-subset(houses, split_index==T) # Those with index = T are moved to subset of training
 test<-subset(houses, split_index==F)
 nrow(train)
