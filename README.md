@@ -1,4 +1,4 @@
-# DataMining-Houses-R
+# Statistical Data Analysis (example) using R
 A short script in R to perform data mining in a dataset (Housing.csv), perform visualizations and build a linear regression model. 
 
 Steps to follow before running the script:
